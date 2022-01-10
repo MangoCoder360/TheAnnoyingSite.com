@@ -17,7 +17,7 @@ const SCREEN_WIDTH = window.screen.availWidth
 const SCREEN_HEIGHT = window.screen.availHeight
 const WIN_WIDTH = 480
 const WIN_HEIGHT = 260
-const VELOCITY = 15
+const VELOCITY = 70
 const MARGIN = 10
 const TICK_LENGTH = 50
 
