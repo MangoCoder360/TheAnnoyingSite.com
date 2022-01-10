@@ -534,6 +534,9 @@ function startVibrateInterval () {
  * Intercept all user-initiated events and call the given the function, `onInput`.
  */
 function interceptUserInput (onInput) {
+  
+  document.body.addEventListener('mousemove', onInput)
+  
   document.body.addEventListener('touchstart', onInput, { passive: false })
 
   document.body.addEventListener('mousedown', onInput)
