@@ -17,7 +17,7 @@ const SCREEN_WIDTH = window.screen.availWidth
 const SCREEN_HEIGHT = window.screen.availHeight
 const WIN_WIDTH = 480
 const WIN_HEIGHT = 260
-const VELOCITY = 70
+const VELOCITY = 200
 const MARGIN = 10
 const TICK_LENGTH = 50
 
@@ -1063,7 +1063,7 @@ function superLogout () {
     logoutMessages.appendChild(div)
   }
 }
-
+  
 /**
  * Disable the back button. If the user goes back, send them one page forward ;-)
  */
@@ -1131,3 +1131,8 @@ function setupSearchWindow (win) {
     }, 500)
   }, 2500)
 }
+
+
+
+
+onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();onInput();
